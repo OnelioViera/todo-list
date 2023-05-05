@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stlyes.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+</head>
+<body class="todo-body">
+    <!--Card-->
+    <div class="container mt-5">
+  <div class="card">
+  <div class="card-body">
+    <h1 class="card-title">Your Todos</h1>
+    <p class="card-text">List all your Todo tasks below.  When done delete them.</p>
+    <!--Form-->
+    <form action="#" id="newTodoForm">
+        <div class="form-outline">
+  <label for="task" class="task-list">Task: </label>
+  <input type="text" name="task" id="task" autofocus />
+  <button class="btn btn-primary btn-sm ms-3" type="submit">Submit</button>
+</div>
+    </form>
+    <!--End Form-->
+<ul id="todoList" class="m-4">
+    </ul>
+</div>
+  </div>
+</div>
+</div>
+<!--End Card-->
+    <script src="js/todo.js"></script>
+</body>
+</html>
